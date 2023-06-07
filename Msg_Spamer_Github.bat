@@ -7,10 +7,10 @@ echo:                        MSG Spamer
 echo:       =============================================
 
 ::Déclaration des Variable avec l'activation du choix via le /p
-set /p chiffre="Number of messages : "
-set /p Message="The message you want to send : " 
-set /p User="The username you are on : "
-set /p Hostname="Hostname of the PC you are spamming : "
+set /p chiffre="Nombre de Message : "
+set /p Message="Le Message que vous voulez envoyer : " 
+set /p User="Votre Nom de session : "
+set /p Hostname="Hostname du pc que tu spam : "
 
 ::Déclaration de la boucle
 :boucle 
